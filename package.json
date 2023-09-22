@@ -13,10 +13,24 @@
     "@typechain/ethers-v6": "^0.4.0",
     "@typechain/hardhat": "^8.0.0",
     "chai": "^4.2.0",
+    "dotenv": "^16.3.1",
     "ethers": "^6.7.1",
+    "fs": "^0.0.1-security",
     "hardhat": "^2.17.3",
+    "hardhat-deploy": "^0.11.37",
     "hardhat-gas-reporter": "^1.0.8",
     "solidity-coverage": "^0.8.0",
     "typechain": "^8.1.0"
+  },
+  "scripts": {
+    "parseDexes": "hardhat run scripts/services/parseDexes.js",
+    "handleTokens": "hardhat run scripts/services/handleTokens.js",
+    "generateRoutes": "hardhat run scripts/services/generateRoutes.js",
+    "dualTrade": "hardhat run scripts/dualTrade.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "pino": "^8.15.1",
+    "pino-pretty": "^10.2.0"
   }
 }

@@ -1,0 +1,20 @@
+[
+  {
+    "address": "0x9879aBDea01a879644185341F7aF7d8343556B7a",
+    "symbol": "TUSD",
+    "name": "TrueUSD",
+    "decimals": 18
+  },
+  {
+    "address": "0x1B6382DBDEa11d97f24495C9A90b7c88469134a4",
+    "symbol": "axlUSDC",
+    "name": "Axelar Wrapped USDC",
+    "decimals": 6
+  },
+  {
+    "address": "0x28a92dde19D9989F39A49905d7C9C2FAc7799bDf",
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 6
+  }
+]

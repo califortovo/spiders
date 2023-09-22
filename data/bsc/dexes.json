@@ -1,0 +1,44 @@
+[
+  {
+    "name": "PancakeSwap AMM",
+    "fork": "UniswapV2",
+    "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    "factory": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73"
+  },
+  {
+    "name": "BiSwap V2",
+    "fork": "UniswapV2",
+    "router": "0x3a6d8cA21D1CF76F653A67577FA0D27453350dD8",
+    "factory": "0x858E3312ed3A876947EA49d572A7C42DE08af7EE"
+  },
+  {
+    "name": "MDEX",
+    "fork": "UniswapV2",
+    "router": "0x62c1A0d92B09D0912F7BB9c96C5ecdC7F2b87059",
+    "factory": "0x3CD1C46068dAEa5Ebb0d3f55F6915B10648062B8"
+  },
+  {
+    "name": "BabyDogeSwap",
+    "fork": "UniswapV2",
+    "router": "0xC9a0F685F39d05D835c369036251ee3aEaaF3c47",
+    "factory": "0x4693B62E5fc9c0a45F89D62e6300a03C85f43137"
+  },
+  {
+    "name": "ApeSwap AMM",
+    "fork": "UniswapV2",
+    "router": "0xcF0feBd3f17CEf5b47b0cD257aCf6025c5BFf3b7",
+    "factory": "0x0841BD0B734E4F5853f0dD8d7Ea041c241fb0Da6"
+  },
+  {
+    "name": "KnightSwap Finance",
+    "fork": "UniswapV2",
+    "router": "0x05E61E0cDcD2170a76F9568a110CEe3AFdD6c46f",
+    "factory": "0xf0bc2E21a76513aa7CC2730C7A1D6deE0790751f"
+  },
+  {
+    "name": "Nomiswap",
+    "fork": "UniswapV2",
+    "router": "0x13147820401f455e3318db8686958D457ad2E7b0",
+    "factory": ""
+  }
+]

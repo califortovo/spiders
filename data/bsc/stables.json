@@ -1,0 +1,62 @@
+[
+  {
+    "address": "0x55d398326f99059fF775485246999027B3197955",
+    "symbol": "USDT",
+    "name": "Tether USD",
+    "decimals": 18
+  },
+  {
+    "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+    "symbol": "USDC",
+    "name": "USD Coin",
+    "decimals": 18
+  },
+  {
+    "address": "0x8965349fb649A33a30cbFDa057D8eC2C48AbE2A2",
+    "symbol": "anyUSDC",
+    "name": "USDC",
+    "decimals": 18
+  },
+  {
+    "address": "0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3",
+    "symbol": "DAI",
+    "name": "Dai Token",
+    "decimals": 18
+  },
+  {
+    "address": "0x40af3827F39D0EAcBF4A168f8D4ee67c121D11c9",
+    "symbol": "TUSD",
+    "name": "TrueUSD",
+    "decimals": 18
+  },
+  {
+    "address": "0xd17479997F34dd9156Deef8F95A52D81D265be9c",
+    "symbol": "USDD",
+    "name": "Decentralized USD",
+    "decimals": 18
+  },
+  {
+    "address": "0x90C97F71E18723b0Cf0dfa30ee176Ab653E89F40",
+    "symbol": "FRAX",
+    "name": "Frax",
+    "decimals": 18
+  },
+  {
+    "address": "0x23396cF899Ca06c4472205fC903bDB4de249D6fC",
+    "symbol": "UST",
+    "name": "Wrapped UST Token",
+    "decimals": 18
+  },
+  {
+    "address": "0xecA88125a5ADbe82614ffC12D0DB554E2e2867C8",
+    "symbol": "vUSDC",
+    "name": "Venus USDC",
+    "decimals": 8
+  },
+  {
+    "address": "0xfD5840Cd36d94D7229439859C0112a4185BC0255",
+    "symbol": "vUSDT",
+    "name": "Venus USDT",
+    "decimals": 8
+  }
+]

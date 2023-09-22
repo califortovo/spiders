@@ -1,0 +1,87 @@
+[
+  {
+    "name": "PancakeSwap AMM",
+    "url": "https://pancakeswap.finance/",
+    "tvl": 1037831954.107577
+  },
+  {
+    "name": "BiSwap V2",
+    "url": "https://biswap.org/",
+    "tvl": 62875268.95652926
+  },
+  {
+    "name": "MDEX",
+    "url": "https://mdex.com/",
+    "tvl": 15517001.644446509
+  },
+  {
+    "name": "BabyDogeSwap",
+    "url": "https://babydogeswap.com",
+    "tvl": 11905701.893257612
+  },
+  {
+    "name": "ApeSwap AMM",
+    "url": "https://apeswap.finance",
+    "tvl": 10113506.28848483
+  },
+  {
+    "name": "KnightSwap Finance",
+    "url": "https://knightswap.financial",
+    "tvl": 4752721.040164681
+  },
+  {
+    "name": "Orion Protocol",
+    "url": "https://www.orionprotocol.io",
+    "tvl": 4277599.139191717
+  },
+  {
+    "name": "Nomiswap",
+    "url": "https://nomiswap.io",
+    "tvl": 4243546.2898495905
+  },
+  {
+    "name": "BakerySwap",
+    "url": "https://www.bakeryswap.org",
+    "tvl": 3968357.952825164
+  },
+  {
+    "name": "BabySwap",
+    "url": "https://home.babyswap.finance",
+    "tvl": 2398237.2946624556
+  },
+  {
+    "name": "SmarDex",
+    "url": "https://smardex.io",
+    "tvl": 2024317.6865432316
+  },
+  {
+    "name": "FstSwap",
+    "url": "https://fstswap.finance/#/swap",
+    "tvl": 1880705.5988747533
+  },
+  {
+    "name": "BSCSwap",
+    "url": "https://bscswap.com/#/list",
+    "tvl": 1720909.7201995307
+  },
+  {
+    "name": "Titano Swych",
+    "url": "https://app.titano.finance/swap",
+    "tvl": 1552253.7337654955
+  },
+  {
+    "name": "Bearn",
+    "url": "https://www.bearn.fi/",
+    "tvl": 1133902.737682482
+  },
+  {
+    "name": "Paraluni Dex",
+    "url": "https://paraluni.org",
+    "tvl": 1082013.1133837732
+  },
+  {
+    "name": "Frax Swap",
+    "url": "https://app.frax.finance/swap/main",
+    "tvl": 1068867.3124921082
+  }
+]
