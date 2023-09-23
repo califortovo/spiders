@@ -9,7 +9,7 @@ async function main() {
   await setup();
   await printBalances();
 
-  // await benchmark();
+  await benchmark();
 
   while (true) {
     await lookForDualTrade();
@@ -72,6 +72,7 @@ async function lookForDualTrade() {
         route[3],
         token0Balance
       );
+
       const profit = amountBack - token0Balance - gasCost;
       if (profit > 0) {
         trade(route, token0Balance, token1Balance);

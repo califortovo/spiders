@@ -29,6 +29,7 @@
     "dualTrade": "hardhat run scripts/dualTrade.js"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
     "axios": "^1.5.0",
     "pino": "^8.15.1",
     "pino-pretty": "^10.2.0"
