@@ -100,7 +100,11 @@ async function benchmark() {
   const start = Date.now();
   await lookForDualTrade();
   const end = Date.now();
-  log.info(`Benchmark: ${routes.length} for ${end - start} ms`);
+  log.info(
+    `Benchmark: ${routes.length} for ${end - start} ms (avg: ${
+      (end - start) / routes.length
+    })`
+  );
 }
 
 main().catch((error) => {
