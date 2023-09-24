@@ -48,6 +48,7 @@ async function main() {
             route.push(tokens[tokensIdx]);
 
             // Фильтруем пути, которые выдают ошибку
+            // Фильтруем пути, обмен по которым съедает больше 90% сделки (таких большинство)
             try {
               const amountBack = await arb.estDT(
                 route[0],

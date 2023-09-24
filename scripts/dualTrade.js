@@ -74,6 +74,7 @@ async function lookForDualTrade() {
       );
 
       const profit = amountBack - token0Balance - gasCost;
+      // log.info(getWithDecimal(profit, 18));
       if (profit > 0) {
         trade(route, token0Balance, token1Balance);
       }
