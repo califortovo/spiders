@@ -47,18 +47,21 @@ async function main() {
             route.push(baseAssets[assetsIdx]);
             route.push(tokens[tokensIdx]);
 
-            // Фильтруем пути, которые выдают ошибку
-            // Фильтруем пути, обмен по которым съедает больше 90% сделки (таких большинство)
             try {
+              // Учитывать реальные объемы сделок
+              const value = ethers.parseUnits("196", 18);
               const amountBack = await arb.estDT(
                 route[0],
                 route[1],
                 route[2],
                 route[3],
-                // Учитывать реальные объемы сделок
-                ethers.parseUnits("0.2", 18)
+                value
               );
-              routes.push(route);
+
+              const isLiquidityEnough = amountBack > (value / 100n) * 90n;
+              if (isLiquidityEnough) {
+                routes.push(route);
+              }
               // log.info(`Added: ${route}`);
             } catch (e) {
               const error = e.message.split("\n")[0];
